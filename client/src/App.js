@@ -7,8 +7,7 @@ import Detail from './components/Detail/Detail.jsx';
 import NotFound from './components/NotFound/NotFound.jsx';
 import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import axios from 'axios';
-axios.defaults.baseURL = 'pi-countries-production-23a8.up.railway.app/'
+
 
 function App() {
   return (
