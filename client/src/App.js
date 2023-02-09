@@ -7,6 +7,8 @@ import Detail from './components/Detail/Detail.jsx';
 import NotFound from './components/NotFound/NotFound.jsx';
 import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import axios from 'axios';
+axios.defaults.baseURL = 'http://localhost:3001/'
 
 function App() {
   return (
